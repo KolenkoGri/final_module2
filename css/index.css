@@ -79,7 +79,7 @@ iframe {
 }
 
 header, h1, p {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -92,7 +92,7 @@ h2 {
     font-weight: 700;
     font-size: 44px;
     line-height: 120%;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 p, figcaption, li {
@@ -154,8 +154,17 @@ section {
     padding-bottom: 0;
 }
 
+.figure {
+    margin-bottom: 30px;
+}
+
+.figure__image:not(:last-child) {
+    margin-bottom: 30px;
+}
+
 .figure__image--center {
-    padding: 30px 240px;
+    padding: 0px 240px;
+    margin-bottom: 0;
 }
 
 .figure--border {
@@ -164,12 +173,12 @@ section {
 
 .figure__text--padding {
     padding-left: 15px;
-    padding-right: 15px;
+    margin-right: 15px;
 }
 
 .figure__text {
     padding-top: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .figure__text--border {
@@ -181,6 +190,7 @@ section {
     border: 1px solid black;
     border-left: none;
     border-bottom: none;
+    margin-bottom: 0;
 }
 
 .figure__image--padding56 {
@@ -195,14 +205,12 @@ section {
 
 .section__text {
     padding-top: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .figure__image--padding137px {
     padding-left: 137px;
     padding-right: 137px;
-    padding-bottom: 30px;
-    padding-top: 30px;
 }
 
 .figure__image--padding382px {
@@ -216,13 +224,13 @@ section {
 }
 
 .section__text--last {
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .footer-list__item:last-child {
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .section__text--last {
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
