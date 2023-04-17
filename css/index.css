@@ -103,7 +103,7 @@ p, figcaption, li {
 }
 
 li {
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 a {
@@ -125,7 +125,7 @@ section {
 }
 
 .nav-item:last-child {
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .block--height415 {
@@ -151,20 +151,23 @@ section {
 }
 
 .block__text:nth-last-child(1) {
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .figure {
     margin-bottom: 30px;
 }
 
-.figure__image:not(:last-child) {
-    margin-bottom: 30px;
+.figure__image {
+    margin-bottom: 0px;
 }
 
+
+.figure__image--margin-bottom {
+    margin-bottom: 30px;
+}
 .figure__image--center {
     padding: 0px 240px;
-    margin-bottom: 0;
 }
 
 .figure--border {
@@ -177,7 +180,6 @@ section {
 }
 
 .figure__text {
-    padding-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -203,8 +205,11 @@ section {
     padding-right: 28px;
 }
 
+.figure__image--margin-bottom {
+    margin-bottom: 30px;
+}
+
 .section__text {
-    padding-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -229,6 +234,10 @@ section {
 
 .footer-list__item:last-child {
     margin-bottom: 0;
+}
+
+ul {
+    margin-bottom: 30px;
 }
 
 .section__text--last {
